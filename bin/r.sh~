@@ -1,0 +1,7 @@
+#!/bin/bash
+cd $MAHOUT_HOME/lib;
+#hadoop jar $x ;
+result="";
+result=`hadoop jar hdfs.jar`;
+echo $result;
+echo "success";
